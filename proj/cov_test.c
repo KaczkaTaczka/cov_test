@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdint.h>
-#include <cstdio.h>
 
 /**
  * mktime64 - Converts date to seconds.
