@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include <cstdio>
 
 /**
  * mktime64 - Converts date to seconds.
@@ -56,5 +57,8 @@ int main() {
    uint64_t test = 73709551615;
    
    printf("Unix time %lld", mktime64(1970, 1, 1, 1, 1, 10));
+   
+   getchar();
+   
    return 0;
 }
